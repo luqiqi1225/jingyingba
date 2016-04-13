@@ -1,0 +1,284 @@
+.clearfix:after{
+	content: "\20";
+	clear: both;
+	height: 0;
+	visibility:hidden;
+	display:block;
+}
+.clearfix{
+
+}
+.signin-title{
+	height: 3.275rem;
+	width: 10.0rem;
+	background: url("../img/signin-title.png") center no-repeat;
+	background-size: cover;
+}
+.signin{
+	width: 10.0rem;
+	position: relative;
+}
+.signin-head{
+	height: 1.375rem;
+	width: 9.0rem;
+	margin: 0 auto;
+}
+
+.signin-head a{
+	width: 4.5rem;
+	height: 1.375rem;
+	float: left;
+	border-bottom: 1px solid #dbdbdb;
+	line-height: 1.375rem;
+	text-align: center;
+	font-size: 15px;
+	color: #959595;
+	text-decoration: none;
+}
+.signin-body{
+	width: 7.75rem;
+	padding: 0.775rem 0.625rem;
+	margin: 0 auto;
+}
+.signup-group{
+	width: 7.7rem;
+	margin: 0 auto;
+}
+.signin-body input{
+	height: 1.225rem;
+	width: 6.7635rem;
+	border: 1px #cccccc solid;
+	font-size: 14px;
+	color: #999999;
+	padding-left: 0.9375rem;
+	color: #333;
+}
+.signin-group-tip{
+	display: inline-block;
+	height: 0.35rem;
+	width: 7.7rem;
+
+}
+.error{
+	height: 0.45rem;
+	padding: 0.325rem;
+	color: #fc0017;
+	font-size: 13px;
+}
+.signin-body .verify-text{
+	width: 4.0125rem;
+	float: left;
+}
+.signin-body .verify-img-wrap{
+	height: 1.225rem;
+	display: inline-block;
+	width: 2.525rem;
+	border: 1px #cccccc solid;
+	float: right;
+}
+.signin-remember{
+	padding: 0.475rem 0.0rem 0.4rem 0.0rem;
+	height: 0.4rem;
+	font-size: 12px;
+}
+.signin-group-left{
+	width: 1.875rem;
+	float: left;
+}
+.signin-group-left .left-span{
+	color: #999;
+}
+.signin-group-left input{
+	height: 0.375rem;
+	width: 0.375rem;
+}
+.signin-group-left+a{
+	float: right;
+	color: #999;
+}
+.signin-submit input{
+	padding: 0;
+	width: 7.7rem;
+	background: #29b572;
+	height: 1.25rem;
+	border: none;
+	color: #fff;
+}
+
+
+
+.signup form{
+	position: absolute;
+	top: 0.75rem;
+	left: 0.675rem;
+}
+form div{
+	width:7.6875rem;
+	height:1.28125rem;
+	margin-bottom:0.34375rem;
+	border:0.03125rem #cacaca solid;
+	overflow: hidden;
+}
+form div.code{
+	width:4.8125rem;
+	float:left;
+}
+form span.pic{
+	display:inline-block;
+	width:0.40625rem;
+	height:0.5625rem;
+	float:left;
+	margin:0.3125rem 0.3125rem 0.0rem 0.1875rem;
+	background-size:cover;
+}
+form .tel span.pic{
+	background-image:url("../img/shouji.png");
+}
+form .code span.pic{
+	background-image:url("../img/code.png");
+}
+form .password span.pic{
+	background-image:url("../img/password1.png");
+}
+form .againpassword span.pic{
+	background-image:url("../img/password2.png");
+}
+form span.line{
+	display:inline-block;
+	float:left;
+	height:0.5625rem;
+	border:0.03125rem #ccc solid;
+	margin-top:0.3125rem
+}
+form input{
+	border:none;
+	width:6.40625rem;
+	height:1.21875rem;
+	float:left;
+	padding-left:0.28125rem;
+}
+form input[name="hascode"]{
+	width:3.5625rem;
+}
+form input[name="getcode"]{
+	width:2.53125rem;
+	background-color:#fff;
+	border:0.03125rem #cacaca solid;
+	text-align: center;
+}
+.signup form input[name="getcode"]{
+	height:0.90625rem;
+	border-radius:0.09375rem;
+	margin:0.15625rem 0.0rem 0.0rem 0.3125rem;
+	padding:0px;
+}
+.signip .signin .state{
+	border:none;
+	margin:0.15625rem 0.0rem 0.0rem 0.0rem;
+}
+.signup form .state input{
+	width:0.375rem;
+	height:0.375rem;
+	margin-top:0.3125rem;
+}
+.signip form .state .statetext{
+	width:1.5625rem;
+	height:1.5625rem;
+	display: inline-block;
+	margin:0.3125rem 0.0rem 0.0rem 0.3125rem;
+	background-color:#fff;
+}
+.signup form .state a{
+	display: inline-block;
+	float:right;
+	margin-top:0.3125rem;
+}
+.signup form input[name="up"]{
+	width:7.75rem;
+	height:1.25rem;
+	background-color:#29b672;
+}
+.signup .signin form input[name="getcode"]{
+	height:1.28125rem;
+	margin-left:0.3125rem;
+}
+.signup .signin form .error{
+	display: inline-block;
+	margin:0.0rem 0.0rem 0.3125rem 0.0rem;
+	color: red;
+}
+
+
+
+
+
+.foot{
+	width:9.0rem;
+	background-color:#fff;
+	margin:0.0rem auto;
+	padding-top:0.78125rem;
+}
+.foot .top{
+	width:7.75rem;
+	height:0.40625rem;
+	margin:0.0rem auto;
+	overflow: hidden;
+	text-align: center;
+}
+.foot .top span{
+	display: inline-block;
+	width:2.03125rem;
+	border:0.03125rem #ccc solid;
+	margin-top:0.1875rem;
+}
+.foot .top .line1{
+	float:left;
+}
+.foot .top .line2{
+	float:right;
+}
+.foot .top strong{
+	display: inline-block;
+	width:1.90625rem;
+	height:0.40625rem;
+	margin:0.0rem 0.40625rem 0.0rem 0.40625rem;
+	font-size:0.40625rem;
+	color:#b0b0b7;
+	font-weight: normal;
+}
+.foot .bottom{
+	width:4.28125rem;
+	height:1.84375rem;
+	overflow: hidden;
+	margin:0.53125rem auto 0.0rem;
+}
+.foot .bottom li{
+	width:0.875rem;
+	height:0.875rem;
+	float:left;
+	margin-right:0.78125rem;
+	border-radius: 50%;
+	background-size: cover;
+}
+.foot .bottom li:nth-child(1){
+	background-image:url("../img/qq.png");
+}
+.foot .bottom li:nth-child(2){
+	background-image:url("../img/weibo.png");
+}
+.foot .bottom li:nth-child(3){
+	background-image:url("../img/weixin.png");
+}
+
+.foot .bottom li:last-child{
+	margin:0.0rem;
+}
+.foot .bottom li a{
+	display:block;
+	width:0.875rem;
+	height:0.875rem;
+}
+
+.signup-body{
+	display: none;
+}

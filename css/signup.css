@@ -1,0 +1,205 @@
+.box{
+	width:10.0rem;
+	padding:1.40625rem 0.0rem 0.1875rem 0.0rem ;
+	background-color:#f5f5f5;
+}
+.box .logo{
+	display:block;
+	width:2.75rem;
+	height:1.15625rem;
+	margin:0.0rem auto 0.71875rem;
+	background-image:url(../img/logo.png);
+	background-size: cover;
+}
+.box .sign{
+	width:9.0rem;
+	background-color:#fff;
+	margin:0.0rem auto;
+}
+.box .sign .signhead{
+	height:1.40625rem;
+	overflow: hidden;
+}
+.box .sign .signhead a{
+	display:block;
+	width:4.5rem;
+	height:1.34375rem;
+	float:left;
+	border-bottom:0.03125rem #dcdcdc solid;
+	text-align:center;
+	line-height:1.34375rem;
+	font-size:0.46875rem;
+	color:#626262;
+}
+.box .sign .signhead a.click{
+	border-bottom:0.03125rem #29b572 solid;
+	color:#29b572;
+}
+.box .sign .signup,.box .sign .signin{
+	width:7.75rem;
+	margin:0.78125rem auto 0.0rem;
+}
+.box .sign form{
+	overflow: hidden;
+}
+.box .sign form div{
+	width:7.6875rem;
+	height:1.28125rem;
+	margin-bottom:0.34375rem;
+	border:0.03125rem #cacaca solid;
+	overflow: hidden;
+}
+.sign form div.code{
+	width:4.8125rem;
+	float:left;
+}
+.sign form span.pic{
+	display:inline-block;
+	width:0.40625rem;
+	height:0.5625rem;
+	float:left;
+	margin:0.3125rem 0.3125rem 0.0rem 0.1875rem;
+	background-size:cover;
+}
+.sign form .tel span.pic{
+	background-image:url("../img/shouji.png");
+}
+.sign form .code span.pic{
+	background-image:url("../img/code.png");
+}
+.sign form .password span.pic{
+	background-image:url("../img/password1.png");
+}
+.sign form .againpassword span.pic{
+	background-image:url("../img/password2.png");
+}
+.sign form span.line{
+	display:inline-block;
+	float:left;
+	height:0.5625rem;
+	border:0.03125rem #ccc solid;
+	margin-top:0.3125rem
+}
+.sign form input{
+	border:none;
+	width:6.40625rem;
+	height:1.21875rem;
+	float:left;
+	padding-left:0.28125rem;
+}
+.sign form input[name="hascode"]{
+	width:3.5625rem;
+}
+.sign form input[name="getcode"]{
+	width:2.53125rem;
+	background-color:#fff;
+	border:0.03125rem #cacaca solid;
+	text-align: center;
+}
+.sign .signup form input[name="getcode"]{
+	height:0.90625rem;
+	border-radius:0.09375rem;
+	margin:0.15625rem 0.0rem 0.0rem 0.3125rem;
+	padding:0px;
+}
+.sign .signin .state{
+	border:none;
+	margin:0.15625rem 0.0rem 0.0rem 0.0rem;
+}
+.sign form .state input{
+	width:0.375rem;
+	height:0.375rem;
+	margin-top:0.3125rem;
+}
+.sign form .state .statetext{
+	width:1.5625rem;
+	height:1.5625rem;
+	display: inline-block;
+	margin:0.3125rem 0.0rem 0.0rem 0.3125rem;
+	background-color:#fff;
+}
+.sign form .state a{
+	display: inline-block;
+	float:right;
+	margin-top:0.3125rem;
+}
+.sign form input[name="up"]{
+	width:7.75rem;
+	height:1.25rem;
+	background-color:#29b672;
+}
+.sign .signin form input[name="getcode"]{
+	height:1.28125rem;
+	margin-left:0.3125rem;
+}
+.sign .signin form .error{
+	display: inline-block;
+	margin:0.0rem 0.0rem 0.3125rem 0.0rem;
+	color: red;
+}
+.box .foot{
+	width:9.0rem;
+	background-color:#fff;
+	margin:0.0rem auto;
+	padding-top:0.78125rem;
+}
+.box .foot .top{
+	width:7.75rem;
+	height:0.40625rem;
+	margin:0.0rem auto;
+	overflow: hidden;
+	text-align: center;
+}
+.box .foot .top span{
+	display: inline-block;
+	width:2.03125rem;
+	border:0.03125rem #ccc solid;
+	margin-top:0.1875rem;
+}
+.box .foot .top .line1{
+	float:left;
+}
+.box .foot .top .line2{
+	float:right;
+}
+.box .foot .top strong{
+	display: inline-block;
+	width:1.90625rem;
+	height:0.40625rem;
+	margin:0.0rem 0.40625rem 0.0rem 0.40625rem;
+	font-size:0.40625rem;
+	color:#b0b0b7;
+	font-weight: normal;
+}
+.box .foot .bottom{
+	width:4.28125rem;
+	height:1.84375rem;
+	overflow: hidden;
+	margin:0.53125rem auto 0.0rem;
+}
+.box .foot .bottom li{
+	width:0.875rem;
+	height:0.875rem;
+	float:left;
+	margin-right:0.78125rem;
+	border-radius: 50%;
+	background-size: cover;
+}
+.box .foot .bottom li:nth-child(1){
+	background-image:url("../img/qq.png");
+}
+.box .foot .bottom li:nth-child(2){
+	background-image:url("../img/weibo.png");
+}
+.box .foot .bottom li:nth-child(3){
+	background-image:url("../img/weixin.png");
+}
+
+.box .foot .bottom li:last-child{
+	margin:0.0rem;
+}
+.box .foot .bottom li a{
+	display:block;
+	width:0.875rem;
+	height:0.875rem;
+}

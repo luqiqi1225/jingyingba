@@ -1,0 +1,20 @@
+/*reset样式*/
+body,h1,h2,p,ol,ul,dl,dd,li{
+	margin: 0;
+}
+
+/*a链接的默认下滑样式*/
+a{
+	text-decoration: none;
+}
+/*有序列表的类型样式*/
+ol,ul{
+	list-style-type: none;
+}
+/*图片边框样式，火狐浏览器和其他浏览器中有效*/
+img{
+	border:none;
+}
+ol,ul,input{
+	padding: 0;
+}

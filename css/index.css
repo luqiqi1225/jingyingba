@@ -1,0 +1,206 @@
+
+
+
+
+/*四个课程 郝鹏鹏出品*/
+body{
+	padding-left: 0;
+	margin: 0;
+}
+.bgi_hao{
+	width:6.312rem;
+	height:1.266rem;
+	background-image:url(../img/pic1.png);
+	background-size:10rem 3.922rem;
+	padding-top:2.66rem;
+	padding-left:3.688rem;
+}
+.bgi_hao .reg_hao{
+	width:2.672rem;
+	height:0.75rem;
+	background-color:#ea9b65;
+	color:#fff;
+	font-size:0.35rem;
+	border:none;
+	border-radius:.125rem;
+}
+.title_hao{
+	width:9.688rem;
+	height:.859rem;
+	background:#f5f5f5;
+	padding:.469rem 0 0 .313rem;
+}
+.title_hao .green_hao{
+	width:.094rem;
+	height:.469rem;
+	background-color:#29b572;
+	border-radius:.063rem;
+}
+.title_hao .online_hao{
+	margin-top:-.406rem;
+	margin-left:.313rem;
+}
+.title_hao .online_hao a{
+	color:#000;
+	display:inline-block;
+	font-size:30px;
+}
+.list_hao{
+	width:9.375rem;
+	height:5.047rem;
+	padding:.094rem .313rem .406rem;
+}
+.list_hao a{
+	width:4.547rem;
+	height:2.219rem;
+	display:block;
+	float:left;
+	background-color:red;
+	margin-top:.313rem;
+}
+.list_hao a img{
+	width:4.567rem;
+	height:2.219rem;
+}
+.list_hao .four_hao,.list_hao .two_hao{
+	margin-left:.25rem;
+}
+/*四个课程 郝鹏鹏出品*/
+
+
+
+/*轮播  波哥出品*/
+.in-he{
+	padding: 0;
+	height: 1.40625rem;
+	width: 9.6875rem;
+	font-size: 0.46875rem;
+	line-height: 1.40625rem;
+	background: #f5f5f5;
+	padding-left: 0.3125rem;
+}
+.in-he div{
+	display: inline-block;
+	width: 0.09375rem;
+	height: 0.46875rem;
+	background: #29b572;
+	border-radius: 0.046875rem;
+}
+.in-he span{
+}
+/*.in-footer{
+	margin:2.5rem auto;
+	width: 80.75rem;
+	height: 2.65rem;
+}*/
+.in-slider{
+	width: 9.375rem;
+	height: 1.28125rem;
+	padding: 0.40625rem 0.3125rem;
+	background: #fff;
+}
+.in-left{
+	width: 0.375rem;
+	height: 0.625rem;
+	display: block;
+	background: url(../img/left.png) 0 0 no-repeat;
+	background-size: 0.375rem 0.625rem;
+	float: left;
+	margin-top: 0.3125rem;
+}
+.in-over{
+	width: 8.25rem;
+	height: 1.28125rem;
+	float: left;
+	overflow: hidden;
+	margin-left: 0.0625rem;
+}
+.in-over ul{
+	height: 1.34375rem;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	transition:all 1s ease;
+}
+.in-over ul li{
+	float: left;
+	margin-left:0.3125rem;
+}
+.in-right{
+	width: 0.375rem;
+	height: 0.625rem;
+	display: block;
+	background: url(../img/right.png) 0 0 no-repeat;
+	background-size: 0.375rem 0.625rem;
+	float: right;
+	margin-top: 0.3125rem;
+}
+.in-over ul li a img{
+	width: 3.75rem;
+	height: 1.21875rem;
+	border: 0.03125rem #eee solid;
+}
+/*轮播  波哥出品*/
+
+
+
+/*学习方式 文文出品*/
+.learn{
+	width: 10rem;
+	position: relative;			
+}
+.learn-title{		
+	padding: 0.475rem 0.0rem 0.375rem 0.15rem;	
+	overflow: hidden;
+	background: #f5f5f5;
+	width: 9.85rem;					
+}
+.learn-title span{
+	height: 0.475rem;
+	width: 0.1rem;
+	float: left;
+	margin-right: 0.225rem;
+	background: #29b572;
+}
+
+.learn-title h3{			
+	float: left;
+	font-size: 15px;
+}
+.learn ul {
+	width: 10rem;
+	/*height: 15rem;*/
+	position: relative;
+	top: 0px;
+}
+/*.learn ul li:nth-child(1){
+	top: 0px;
+}*/
+.learn ul li {
+	position: relative;
+	font-size:0.34375rem;
+	margin-top: 0.625rem;
+}
+
+.learn li .learn-pic img{
+	height: 2.5rem;
+	width: 2.5rem;
+}
+.learn ul li .learn-p{
+	position: absolute;
+	width: 6.25rem;
+	height: 2.5rem;
+	left: 2.9375rem;
+	top: 0.0rem;			
+}
+.learn ul li .learn-p h3{
+	position: absolute;
+	top: -0.25rem;
+}
+.learn ul li .learn-p p{
+	position: absolute;
+	top: 0.8125rem;
+	line-height: 0.5625rem;
+	color:#a1a1a1;
+}
+/*学习方式 文文出品*/
